@@ -13,7 +13,10 @@ description = {
   license = "MIT <http://opensource.org/licenses/MIT>"
 }
 dependencies = {
-  "lua >= 5.1"
+  "lua >= 5.1",
+  "lua-yaml",
+  "etlua",
+  "lunamark"
 }
 build = {
   type = "builtin",
